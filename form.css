@@ -1,0 +1,144 @@
+body {
+     background-color: rgb(145, 145, 226);
+     margin: 0;
+     font-family: Arial, sans-serif;
+ }
+
+ form{
+    padding: 10%;
+    height: 10%;
+    width: 300px;
+ }
+ .head{
+     text-align: center;
+     margin-top: 60px;
+ }
+ .container {
+     background-color: white;
+     margin: 50px auto;
+     padding: 20px;
+     max-width: 700px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     text-align: left;
+ }
+ 
+ h1 {
+     margin: 0;
+ }
+ 
+ input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.name{
+    text-align: left;
+    width: 500px;
+    height: 50px;
+}
+.dob{
+    text-align: left;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+
+}
+
+.country{
+    text-align: left;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+
+.gender{
+    text-align: left;
+    width: 500px;
+    height: 50px;
+}
+
+.profession{
+    text-align: left;
+    width: 500px;
+    height: 20px;
+    width: 100%;
+
+}
+
+.mail{
+    text-align: left;
+    width: 500px;
+    height: 20px;
+}
+
+.phone{
+    text-align: left;
+    height: 20px;
+    width: 100%;
+
+}
+
+.submit{
+    text-align: left;
+    width: 500px;
+    height: 20px;
+    text-align: center;
+}
+
+ .popup {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.7);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 1;
+ }
+ 
+ .popup-content {
+     background-color: #fff;
+     padding: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     text-align: center;
+ }
+ 
+ .close {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     cursor: pointer;
+ }
+ 
+ .popup h2 {
+     margin-top: 0;
+ }
+ 
+ .popup-content div {
+     text-align: left;
+ }
+ 
+ .popup-content div span {
+     font-weight: bold;
+ }
+ 
+ .popup-content div:after {
+     content: '\A';
+     white-space: pre;
+ }
+ 
+ footer{
+     text-align: center;
+ }
+
+
+ 

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+     <h1 class="head">Customer Survey Form</h1>
+    <div class="container">
+        <form id="surveyForm" onsubmit="return submitForm();">
+
+            <div class="form-group">
+            <tr>
+                <div class="name">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name" required placeholder="First Name">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name" required placeholder="Last Name">
+                  </div>
+
+            <div class="dob">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="country">
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select Country</option>
+                    <option value="af">Afghanistan</option>
+                    <option value="ar">Argentina</option>
+                    <option value="bh">Bhutan</option>
+                    <option value="br">Brazil</option>
+                    <option value="ca">Canada</option>
+                    <option value="ch">China</option>
+                    <option value="co">Colombia</option>
+                    <option value="fr">France</option>
+                    <option value="ge">Germany</option>
+                    <option value="in">India</option>
+                    <option value="ja">Japan</option>
+                    <option value="ko">Korea</option>
+                    <option value="ma">Maldives</option>
+                    <option value="ne">Nepal</option>
+                    <option value="nz">New Zealand</option>
+                    <option value="pa">Pakistan</option>
+                    <option value="ph">Philippines</option>
+                    <option value="po">Poland</option>
+                    <option value="ru">Russia</option>
+                    <option value="sp">Spain</option>
+                    <option value="sl">Sri Lanka</option>
+                    <option value="tu">Turkey</option>
+                    <option value="uae">United Arab Emirates</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="us">United States</option>
+                    <option value="za">Zambia</option>
+                </select>
+            </div>
+
+            <div class="gender">
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required> 
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required> 
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="gender" value="others" required> 
+                <label for="female">Others</label>
+            </div>
+<table>
+        <tr>
+            <div class="profession">
+                <label for="profession">Profession</label>
+            </tr>
+            <tr>
+                <input type="text" id="profession" name="profession" required>
+                </tr>
+            </div>
+
+        <tr>         
+                <div class="mail">
+                <label for="email">Email</label>
+        </tr>
+        <tr>
+            <input type="email" id="email" name="email" required>
+            </tr>
+            </div>
+
+            <tr>
+            <div class="phone">
+                <label for="phone">Phone Number</label>
+            </tr>
+            <tr>
+                <input type="tel" id="phone" name="phone" required>
+            </tr>
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </table> 
+        </form>
+    </div>
+    </div>
+    <script src="form.js"></script>
+    <footer>@2023 Customer Survey Form. All Rights Reserved</footer>
+</body>
+</html>
